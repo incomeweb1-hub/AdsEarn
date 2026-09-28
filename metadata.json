@@ -1,0 +1,6 @@
+{
+  "name": "Watch & Earn",
+  "description": "Clean, mobile-friendly watch ads and earn platform with bKash and Nagad withdrawals and secure admin panel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

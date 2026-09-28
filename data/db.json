@@ -1,0 +1,201 @@
+{
+  "users": [
+    {
+      "id": "usr_demo_1",
+      "phone": "01712345678",
+      "passwordHash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+      "referralCode": "REF789",
+      "totalAdsWatched": 13,
+      "balance": 13,
+      "totalWithdraw": 0,
+      "totalReferrals": 3,
+      "status": "active",
+      "createdAt": "2026-09-21T01:23:57.220Z",
+      "lastAdWatchedAt": "2026-09-28T07:54:08.799Z"
+    }
+  ],
+  "withdrawals": [
+    {
+      "id": "wth_demo_1",
+      "userId": "usr_demo_1",
+      "phone": "01712345678",
+      "method": "bKash",
+      "accountNumber": "01712345678",
+      "amount": 50,
+      "status": "pending",
+      "createdAt": "2026-09-28T01:23:57.220Z"
+    }
+  ],
+  "ads": [
+    {
+      "id": "ad_slot_1",
+      "title": "Watch Ad Slot 1",
+      "slot": 1,
+      "provider": "adsterra",
+      "code": "<!-- Adsterra 300x250 Ad Slot Script -->\n<script type=\"text/javascript\">\n  atOptions = {\n    'key' : 'adsterra_slot_1_demo_key',\n    'format' : 'iframe',\n    'height' : 250,\n    'width' : 300,\n    'params' : {}\n  };\n</script>\n<script type=\"text/javascript\" src=\"//www.highperformanceformat.com/adsterra_slot_1_demo_key/invoke.js\"></script>",
+      "directUrl": "https://example.com/ad1",
+      "reward": 1,
+      "duration": 15,
+      "enabled": true,
+      "createdAt": "2026-09-28T01:23:57.220Z"
+    },
+    {
+      "id": "ad_slot_2",
+      "title": "Watch Ad Slot 2",
+      "slot": 2,
+      "provider": "adsterra",
+      "code": "<!-- Adsterra 320x50 / Social Bar Ad Slot Script -->\n<script type=\"text/javascript\">\n  atOptions = {\n    'key' : 'adsterra_slot_2_demo_key',\n    'format' : 'iframe',\n    'height' : 250,\n    'width' : 300,\n    'params' : {}\n  };\n</script>\n<script type=\"text/javascript\" src=\"//www.highperformanceformat.com/adsterra_slot_2_demo_key/invoke.js\"></script>",
+      "directUrl": "https://example.com/ad2",
+      "reward": 1,
+      "duration": 15,
+      "enabled": true,
+      "createdAt": "2026-09-28T01:23:57.220Z"
+    }
+  ],
+  "sessions": [
+    {
+      "sessionToken": "c9d71b53-aef5-41a8-afd7-465eeacbb504",
+      "userId": "usr_demo_1",
+      "adId": "ad_slot_2",
+      "duration": 15,
+      "reward": 1,
+      "startedAt": 1790582007129,
+      "expiresAt": 1790582607129,
+      "completed": false
+    },
+    {
+      "sessionToken": "8a3572c1-d0ea-425c-995f-7c6ab3b0c755",
+      "userId": "usr_demo_1",
+      "adId": "ad_slot_2",
+      "duration": 15,
+      "reward": 1,
+      "startedAt": 1790582007133,
+      "expiresAt": 1790582607133,
+      "completed": false
+    },
+    {
+      "sessionToken": "eaa58fa4-032e-4ad6-857a-23011b28dc68",
+      "userId": "usr_demo_1",
+      "adId": "ad_slot_1",
+      "duration": 15,
+      "reward": 1,
+      "startedAt": 1790582011237,
+      "expiresAt": 1790582611237,
+      "completed": false
+    },
+    {
+      "sessionToken": "9e343d60-c185-4c5c-8bdd-4ff937a6e794",
+      "userId": "usr_demo_1",
+      "adId": "ad_slot_1",
+      "duration": 15,
+      "reward": 1,
+      "startedAt": 1790582011239,
+      "expiresAt": 1790582611239,
+      "completed": false
+    },
+    {
+      "sessionToken": "f9bf2b44-0f67-4c0f-8128-c9f613486396",
+      "userId": "usr_demo_1",
+      "adId": "ad_slot_2",
+      "duration": 15,
+      "reward": 1,
+      "startedAt": 1790582014650,
+      "expiresAt": 1790582614650,
+      "completed": false
+    },
+    {
+      "sessionToken": "83a24739-d4d8-4fe3-a5da-f0c5ce76381f",
+      "userId": "usr_demo_1",
+      "adId": "ad_slot_2",
+      "duration": 15,
+      "reward": 1,
+      "startedAt": 1790582014652,
+      "expiresAt": 1790582614652,
+      "completed": false
+    },
+    {
+      "sessionToken": "75756b4f-80f4-4558-b311-ef9227aa3daa",
+      "userId": "usr_demo_1",
+      "adId": "ad_slot_2",
+      "duration": 15,
+      "reward": 1,
+      "startedAt": 1790582018248,
+      "expiresAt": 1790582618248,
+      "completed": false
+    },
+    {
+      "sessionToken": "6c8c08a0-223e-48dd-8eaf-37337a4aa860",
+      "userId": "usr_demo_1",
+      "adId": "ad_slot_2",
+      "duration": 15,
+      "reward": 1,
+      "startedAt": 1790582018249,
+      "expiresAt": 1790582618249,
+      "completed": false
+    },
+    {
+      "sessionToken": "dc222ff4-f343-4d73-af13-cb05617f4a45",
+      "userId": "usr_demo_1",
+      "adId": "ad_slot_1",
+      "duration": 15,
+      "reward": 1,
+      "startedAt": 1790582023559,
+      "expiresAt": 1790582623559,
+      "completed": false
+    },
+    {
+      "sessionToken": "d26d984a-d5f1-44b3-8be4-2003ceac54cb",
+      "userId": "usr_demo_1",
+      "adId": "ad_slot_1",
+      "duration": 15,
+      "reward": 1,
+      "startedAt": 1790582023561,
+      "expiresAt": 1790582623561,
+      "completed": false
+    },
+    {
+      "sessionToken": "954451b1-4cd4-4463-a2a0-41de18b11dc3",
+      "userId": "usr_demo_1",
+      "adId": "ad_slot_2",
+      "duration": 15,
+      "reward": 1,
+      "startedAt": 1790582026437,
+      "expiresAt": 1790582626437,
+      "completed": false
+    },
+    {
+      "sessionToken": "036d9eca-4e31-4497-8a3b-f9dc5465c86f",
+      "userId": "usr_demo_1",
+      "adId": "ad_slot_2",
+      "duration": 15,
+      "reward": 1,
+      "startedAt": 1790582026438,
+      "expiresAt": 1790582626438,
+      "completed": false
+    },
+    {
+      "sessionToken": "9dfd8734-3d2d-4331-a16b-682888a88b24",
+      "userId": "usr_demo_1",
+      "adId": "ad_slot_2",
+      "duration": 15,
+      "reward": 1,
+      "startedAt": 1790582031561,
+      "expiresAt": 1790582631561,
+      "completed": false
+    },
+    {
+      "sessionToken": "e9364427-78d3-43e4-99f7-80821a5431a4",
+      "userId": "usr_demo_1",
+      "adId": "ad_slot_2",
+      "duration": 15,
+      "reward": 1,
+      "startedAt": 1790582031569,
+      "expiresAt": 1790582631569,
+      "completed": true
+    }
+  ],
+  "admin": {
+    "username": "admin",
+    "passwordHash": "ac9689e2272427085e35b9d3e3e8bed88cb3434828b43b86fc0596cad4c6e270"
+  }
+}
